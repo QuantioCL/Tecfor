@@ -1,0 +1,233 @@
+/* HANDCRAFTED BY QUANTIO */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500,600);
+
+@font-face {
+	font-family: 'quantio';
+	src: url('/fonts/bauhaus_93.eot');
+}
+
+@font-face {
+	font-family: 'quantio';
+	src: url('/fonts/bauhaus_93.ttf');
+}
+
+#messageBox {
+	position: fixed;
+	right: 30px;
+	top: 30px;
+	padding: 18px 40px;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #232323;
+	z-index: 10001;
+	border-radius: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.success-box {
+	background-color: rgba(182,205,188,0.8);
+	border: 2px solid #43744e;
+}
+
+.error-box{
+	background-color: rgba(217,172,184,0.8);
+	border: 2px solid #a52940;
+}
+
+#bannerContacto {
+	width: 100%;
+	margin-bottom: 50px;
+	background: #d9d9d9;
+	height: 340px;
+	background-image: url("/images/tec4.jpg");
+	background-position: center 40%;
+	background-size: cover;
+	text-align: center;
+	line-height: 250px;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	font-weight: 200;
+	color: #fff;
+	-webkit-animation: myfirst 3s;
+    animation: myfirst 3s;
+}
+
+@-webkit-keyframes myfirst {
+    from {
+	    -webkit-filter: grayscale(100%);
+	    -moz-filter: grayscale(100%);
+	    filter: grayscale(100%);
+	}
+    to {
+    	-webkit-filter: grayscale(0%);
+	    -moz-filter: grayscale(0%);
+	    filter: grayscale(0%);
+    }
+}
+
+@keyframes myfirst {
+    from {
+	    -webkit-filter: grayscale(100%);
+	    -moz-filter: grayscale(100%);
+	    filter: grayscale(100%);
+	}
+    to {
+    	-webkit-filter: grayscale(0%);
+	    -moz-filter: grayscale(0%);
+	    filter: grayscale(0%);
+    }
+}
+
+#abstractContacto {
+	width: 80%;
+	left: 10%;
+	height: auto;
+	padding: 40px 0 40px 0;
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#contactForm {
+	width: 40%;
+	left: 30%;
+	height: auto;
+	margin-bottom: 100px;
+}
+
+#contactForm input[type='text'], #contactForm input[type='tel'], 
+#contactForm input[type='email']{
+	border: 1px solid #eef0f2;
+	background-color: #eef0f2;	
+	height: 40px;
+	-webkit-appearance: none;	
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	transition: border 0.5s;
+	color: #616161;
+}
+
+textarea {
+	width: 100%;
+	max-width: 100% !important; 
+	border: 1px solid #eef0f2;
+	background-color: #eef0f2;	
+	height: 210px;
+	padding: 6px;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	transition: border 0.5s;
+	color: #616161;
+	
+}
+
+#contactForm input:focus, #contactForm textarea:focus {
+	outline: none;
+	border: 1px solid #439455;
+}
+
+.formLeft {
+	width: 48%;
+	float: left;
+	left: 0;
+	display: inline-block;
+}
+
+.formRight {
+	width: 48%;
+	float: right;
+	right: 0;
+	display: inline-block;
+}
+
+.formFull {
+	width: 100%;
+	clear: both;
+}
+
+.styled {
+	border: 1px solid #eef0f2;
+	background-color: #eef0f2;	
+	height: 40px;
+	width: 100%;
+	-webkit-appearance: none;	
+	padding-left: 15px;
+	margin-bottom: 15px;
+	color: #616161;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	transition: border 0.5s;
+}
+
+.styled:focus {
+	outline: none;
+	border: 1px solid #439455;
+}
+
+#contactForm input[type='submit'] {
+	margin-top: 30px;
+	width: 26%;
+	padding: 7px 15px 7px 15px;
+	background-color: rgba(133,169,142,0.85);
+	color: #fff;
+	border: none;
+	-webkit-appearance: none;
+	-webkit-appearance: none;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+#contactForm input[type='submit']:hover {
+	cursor: pointer;
+	background-color: #839f8a;
+}
+
+.contactInfo {
+	width: 60%;
+	left: 20%;
+	height: auto;
+	border-top: 1px solid #d9d9d9;
+	padding: 30px 0 30px 0;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 0;
+}
+
+table, th, td {
+    border: none;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	height: 25px;
+	text-align: left;
+}
+
+.proof {
+	display: none;
+}

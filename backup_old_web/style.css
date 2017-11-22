@@ -1,0 +1,17 @@
+html  {
+        height:100%;
+}
+body{
+        font: normal 11px Tahoma;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-image:url(background_page_dark.gif) !important;/*new*/
+        background-repeat:repeat;/*new*/
+        background-color:#5B6C77;/*new*/
+	height:expression((document.getElementsByTagName('body')[0].offsetHeight < document.getElementsByTagName('html')[0].offsetHeight) ? '100%' : '');
+        min-height:100%;
+        position:relative;
+        font-size:12px;
+}
+

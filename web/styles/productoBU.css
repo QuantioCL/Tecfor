@@ -1,0 +1,234 @@
+/* HANDCRAFTED BY QUANTIO */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500,600);
+
+@font-face {
+	font-family: 'quantio';
+	src: url('/fonts/bauhaus_93.eot');
+}
+
+@font-face {
+	font-family: 'quantio';
+	src: url('/fonts/bauhaus_93.ttf');
+}
+
+/* producto.html */
+
+#productList {
+	width: 70%;
+	left: 15%;
+	height: auto;
+	margin-top: 80px;
+	margin-bottom: 60px;
+	
+}
+
+.productSquare {
+	float: left;
+	width: 27.3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	height: 320px;
+	color: #d9d9d9;
+}
+
+.productSquare:hover {
+	color: #839f8a;
+}
+
+.imgSquare {
+	width: 100%;
+	height: 280px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+/* ---------------- */
+
+.productBanner {
+	width: 100%;
+	margin-bottom: 50px;
+	background: #d9d9d9;
+	height: 450px;
+	background-size: cover;
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	text-align: left;
+	padding: 310px 0 0px 50px;
+	box-sizing: border-box;
+	text-shadow: 2px 2px 10px #2d2d2d;
+	text-transform: uppercase;
+}
+
+.infoBox {
+	width: 80%;
+	left: 10%;
+	height: auto;
+/*	background-color: #e5e9eb;*/
+	padding: 60px 0 60px 0px;
+	box-sizing: content-box;
+	margin-bottom: 35px;
+	border-top: 1px solid #d9d9d9;
+}
+
+.infoBox ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left: 50px;
+	line-height: 26px;
+}
+
+
+/* Trineumatico */
+
+#trineumatico {
+	background-position: center center;
+}
+
+#technical {
+	width: 80%;
+	left: 10%;
+	height: auto;
+/*	background-color: #e5e9eb;*/
+	padding: 60px 0 60px 0;
+	box-sizing: content-box;
+	margin-bottom: 70px;
+/*	border-bottom: 1px solid #d9d9d9;*/
+	border-top: 1px solid #d9d9d9;
+}
+
+.two-col {
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+#technical-left {
+	box-sizing: border-box;
+	padding-right: 3%;
+}
+
+#technical-right {
+	box-sizing: border-box;
+	padding: 10px 0 0 8%; 
+}
+
+#technical table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#technical table, #technical th, #technical td {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#technical th {
+	text-align: left;
+	color: #202020;
+	padding-left: 3px;
+}
+
+#technical td {
+	height: 40px;
+	text-align: right;
+	color: #5b5b5b;
+	background-color: rgba(249,249,249,0.94);
+	padding-right: 5px;
+}
+
+/* Gruas */
+
+#grua {
+	background-position: 50% 40%;
+}
+
+#gruasTable table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#gruasTable table, #gruasTable th, #gruasTable td {
+    border: 1px solid #e6e6e6;
+}
+
+#gruasTable th {
+	text-align: center;
+	color: #202020;
+	padding: 7px 0;
+}
+
+#gruasTable td {
+	height: 40px;
+	text-align: center;
+	color: #5b5b5b;
+	padding-right: 5px;
+}
+
+
+/* Auxilio carretero */
+
+#auxilio {
+	background-position: center center;
+}
+
+.auxTable table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.auxTable table, .auxTable th, .auxTable td {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.auxTable th {
+	text-align: left;
+	color: #202020;
+	padding: 7px 0;
+	width: 35%;
+}
+
+.auxTable td {
+	height: 40px;
+	text-align: center;
+	color: #5b5b5b;
+	padding: 5px 0;
+	background-color: rgba(249,249,249,0.94);
+}
+
+
+/* Plataformas Hidraulicas */
+
+#plataforma {
+	background-position: center 70%;
+}
+
+#platTable table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+#platTable table, #platTable th, #platTable td {
+    border: 1px solid #e6e6e6;
+}
+
+#platTable th {
+	text-align: center;
+	color: #202020;
+	padding: 7px 2px;
+	background-color: rgba(249,249,249,0.94);
+}
+
+#platTable td {
+	height: 40px;
+	text-align: center;
+	color: #5b5b5b;
+	padding-right: 5px;
+	padding: 4px 0;
+}

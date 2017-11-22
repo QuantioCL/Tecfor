@@ -1,0 +1,419 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') {
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (val<min || max<val) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+
+	<TITLE>Formulario TECFOR</TITLE>
+</HEAD>
+
+<BODY BACKGROUND="../fondodegrad.jpg">
+
+<FORM ACTION="mailto:cmunita@tecfor.cl;cmz@tie.cl?subject=Envio Formulario de aviso a Tecfor" METHOD="POST" ENCTYPE="text/plain"
+name="Aviso_web" onSubmit="MM_validateForm('nombre','','R','fono','','R','E_Mail','','RisEmail','Aviso_Publicar','','R');return document.MM_returnValue">
+<P>
+<TABLE BORDER="0" WIDTH="742">
+	<TR>
+		<TD WIDTH="100%">
+			<TABLE BORDER="0" CELLSPACING="0" WIDTH="98%">
+				<TR>
+					<TD COLSPAN="5" BGCOLOR="#804040">
+						<P ALIGN="CENTER"><B><U><SPAN STYLE="Font-Size : 12pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Formulario
+						para enviar a TECFOR</FONT></SPAN></U></B>
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="5">
+						<P ALIGN="CENTER"><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif"><BR>
+						Complete este formulario y env&iacute;elo presionando el bot&oacute;n &quot;enviar formulario a Tecfor&quot;. <BR>
+						Nota: Los campos &quot;</FONT></SPAN><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">requerido&quot;
+						</FONT></SPAN></B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">son obligatorios.</FONT></SPAN>
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="5">
+<HR ALIGN="CENTER">
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%" BGCOLOR="#E2E2E2">
+						<P ALIGN="CENTER"><B><SPAN STYLE="Font-Size : 12pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">1.-</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="142" BGCOLOR="#E2E2E2"><B><U><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">Antecedentes</FONT></SPAN></U></B></TD>
+					<TD WIDTH="153">&nbsp;</TD>
+					<TD WIDTH="155">&nbsp;</TD>
+					<TD WIDTH="136">&nbsp;</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><I><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">Nombre
+						y Apellido :</FONT></SPAN></I></B>
+					</TD>
+					<TD COLSPAN="4"><INPUT TYPE="TEXT" NAME="nombre" SIZE="50" MAXLENGTH="100"> <B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime"
+						FACE="Arial, Helvetica, sans-serif">requerido</FONT></SPAN></B></TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Empresa
+						:</FONT></SPAN></B>
+					</TD>
+					<TD COLSPAN="4"><INPUT TYPE="TEXT" NAME="empresa" SIZE="50" MAXLENGTH="100"></TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><I><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">Fono
+						:</FONT></SPAN></I></B>
+					</TD>
+					<TD COLSPAN="3"><INPUT TYPE="TEXT" NAME="fono" SIZE="15"> <SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">(favor
+						incluir c&oacute;digo de &aacute;rea) </FONT></SPAN><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">requerido</FONT></SPAN></B></TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Fax
+						:</FONT></SPAN></B>
+					</TD>
+					<TD COLSPAN="3"><INPUT TYPE="TEXT" NAME="fax" SIZE="15"> <SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">(favor
+						incluir c&oacute;digo de &aacute;rea)</FONT></SPAN></TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><I><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">E-Mail
+						:</FONT></SPAN></I></B>
+					</TD>
+					<TD COLSPAN="4"><INPUT TYPE="TEXT" NAME="E_Mail" SIZE="50" MAXLENGTH="80"> <B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime"
+						FACE="Arial, Helvetica, sans-serif">requerido</FONT></SPAN></B></TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="5">
+<HR ALIGN="CENTER">
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%" BGCOLOR="#E2E2E2">
+						<P ALIGN="CENTER"><B><SPAN STYLE="Font-Size : 12pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">2.-</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="142" BGCOLOR="#E2E2E2"><B><U><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">Tipo de Aviso</FONT></SPAN></U></B></TD>
+					<TD WIDTH="153"><FONT COLOR="#368266">&nbsp;</FONT></TD>
+					<TD WIDTH="155"><FONT COLOR="#368266">&nbsp;</FONT></TD>
+					<TD WIDTH="136"><FONT COLOR="#368266">&nbsp;</FONT></TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><I><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">Tipo
+						:</FONT></SPAN></I></B>
+					</TD>
+					<TD COLSPAN="2">
+						<SELECT NAME="Tipo">
+						<OPTION> </OPTION>
+						<OPTION>Compra</OPTION>
+						<OPTION>Venta</OPTION>
+						<OPTION>Arrendatario</OPTION>
+						<OPTION>Arrendador</OPTION>
+						</SELECT>
+ <B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">requerido</FONT></SPAN></B></TD>
+					<TD WIDTH="136">&nbsp;</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="5">
+<HR ALIGN="CENTER">
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%" BGCOLOR="#E2E2E2">
+						<P ALIGN="CENTER"><B><SPAN STYLE="Font-Size : 12pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">3.-</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="142" BGCOLOR="#E2E2E2"><B><U><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">Especificaciones</FONT></SPAN></U></B></TD>
+					<TD COLSPAN="4"><FONT COLOR="#368266">&nbsp;</FONT><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">(
+						complete esta secci&oacute;n si su opci&oacute;n es VENTA de trineum&aacute;tico )</FONT></SPAN></TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Modelo
+						:</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="153">
+						<SELECT NAME="Modelo">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>TEC 2.2</OPTION>
+						<OPTION>BIG TEC</OPTION>
+						<OPTION>EURO</OPTION>
+						<OPTION>BIG EURO</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="155">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Serie
+						N&ordm; :</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="136"><INPUT TYPE="TEXT" NAME="Serie_N" SIZE="12"></TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Hor&oacute;metro
+						:</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="153"><INPUT TYPE="TEXT" NAME="Horometro" SIZE="8"> <B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">hrs.</FONT></SPAN></B></TD>
+					<TD WIDTH="155">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Reacondicionada
+						:</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="136">
+						<SELECT NAME="Reacondicionada">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>Si</OPTION>
+						<OPTION>No</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Motor
+						Ajustado :</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="153">
+						<SELECT NAME="Motor_Ajustado">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>Si</OPTION>
+						<OPTION>No</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="155">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Motores
+						Transmisi&oacute;n :</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="136">
+						<SELECT NAME="Mot_Transmision">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>MS</OPTION>
+						<OPTION>Rexroth</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Rotor
+						:</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="153">
+						<SELECT NAME="Rotor">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>Indexator</OPTION>
+						<OPTION>Rotobec</OPTION>
+						<OPTION>Otro</OPTION>
+						<OPTION> </OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="155">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Comandos
+						:</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="136">
+						<SELECT NAME="Comandos">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>Commercial</OPTION>
+						<OPTION>Vickers</OPTION>
+						<OPTION>Otro</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Bomba
+						Hidr&aacute;ulica :</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="153">
+						<SELECT NAME="Bba_Hidraulica">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>Buena</OPTION>
+						<OPTION>Regular</OPTION>
+						<OPTION>Mala</OPTION>
+						<OPTION>Reacondicionada</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="155">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Neum&aacute;ticos
+						:</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="136">
+						<SELECT NAME="Neumaticos">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>Nuevos</OPTION>
+						<OPTION>75 %</OPTION>
+						<OPTION>50 %</OPTION>
+						<OPTION>Gastados</OPTION>
+						<OPTION>Recauchados</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Cilindros
+						Hidr&aacute;ulicos :</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="153">
+						<SELECT NAME="Cil_Hidraulicos">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>Buenos</OPTION>
+						<OPTION>Reparados</OPTION>
+						<OPTION>Originales</OPTION>
+						<OPTION>Con fugas</OPTION>
+						<OPTION>Otros</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="155">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Garra
+						:</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="136">
+						<SELECT NAME="Garra">
+						<OPTION SELECTED> </OPTION>
+						<OPTION>GT - 400</OPTION>
+						<OPTION>GT - 600</OPTION>
+						<OPTION>GT - 375</OPTION>
+						<OPTION>Otra</OPTION>
+						</SELECT>
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142" VALIGN="TOP">
+						<P ALIGN="RIGHT"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">Otros
+						:</FONT></SPAN></B>
+					</TD>
+					<TD COLSPAN="3"><TEXTAREA NAME="Otros" ROWS="4" COLS="35"></TEXTAREA></TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="5">
+<HR ALIGN="CENTER">
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%" BGCOLOR="#E2E2E2">
+						<P ALIGN="CENTER"><B><SPAN STYLE="Font-Size : 12pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">4.-</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="142" BGCOLOR="#E2E2E2"><B><U><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">Aviso a Publicar</FONT></SPAN></U></B></TD>
+					<TD COLSPAN="4"><FONT COLOR="#368266">&nbsp;</FONT><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">(
+						escriba el aviso que desea publicar )</FONT></SPAN></TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD WIDTH="142" VALIGN="TOP">
+						<P ALIGN="RIGHT"><B><I><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime" FACE="Arial, Helvetica, sans-serif">Ingrese
+						su Aviso :</FONT></SPAN></I></B>
+					</TD>
+					<TD COLSPAN="3"><TEXTAREA NAME="Aviso_Publicar" ROWS="6" COLS="35"></TEXTAREA> <B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="lime"
+						FACE="Arial, Helvetica, sans-serif">requerido</FONT></SPAN></B></TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="5">
+<HR ALIGN="CENTER">
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%" BGCOLOR="#E2E2E2">
+						<P ALIGN="CENTER"><B><SPAN STYLE="Font-Size : 12pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">5.-</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="142" BGCOLOR="#E2E2E2"><B><U><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">Consulta</FONT></SPAN></U></B></TD>
+					<TD WIDTH="153"><FONT COLOR="#368266">&nbsp;</FONT></TD>
+					<TD WIDTH="155"><FONT COLOR="#368266">&nbsp;</FONT></TD>
+					<TD WIDTH="136"><FONT COLOR="#368266">&nbsp;</FONT></TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%">&nbsp;</TD>
+					<TD  NOWRAP COLSPAN="5"><B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white" FACE="Arial, Helvetica, sans-serif">&iquest; Desea recibir
+						los Informes T&eacute;cnicos TECFOR mensualmente ? </FONT></SPAN></B><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="white"
+						FACE="Arial, Helvetica, sans-serif"><INPUT TYPE="CHECKBOX" NAME="Inf_Tecnicos" VALUE="SI"  CHECKED> (si = casilla
+						marcada)</FONT></SPAN></TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="5">
+<HR ALIGN="CENTER">
+					</TD>
+					<TD WIDTH="85">&nbsp;</TD>
+				</TR>
+				<TR>
+					<TD WIDTH="5%" BGCOLOR="#FF8080">
+						<P ALIGN="CENTER"><B><SPAN STYLE="Font-Size : 12pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">6.-</FONT></SPAN></B>
+					</TD>
+					<TD WIDTH="142" BGCOLOR="#FF8080"><B><U><SPAN STYLE="Font-Size : 10pt"><FONT COLOR="#368266" FACE="Arial, Helvetica, sans-serif">Presione bot&oacute;n
+						para enviar formulario</FONT></SPAN></U></B></TD>
+					<TD COLSPAN="2" BGCOLOR="#FF8080">&nbsp; <INPUT TYPE="SUBMIT" NAME="Submit" VALUE="Enviar Formulario a TECFOR"></TD>
+					<TD WIDTH="136" BGCOLOR="#FF8080">&nbsp; <INPUT TYPE="RESET" NAME="Reset" VALUE="Borrar datos"></TD>
+					<TD WIDTH="85">
+						<P ALIGN="RIGHT">&nbsp;
+					</TD>
+				</TR>
+				<TR>
+					<TD COLSPAN="6">
+<HR ALIGN="CENTER">
+					</TD>
+				</TR>
+			</TABLE>
+		</TD>
+	</TR>
+</TABLE>
+
+</FORM>
+
+</BODY>
+
+</HTML>

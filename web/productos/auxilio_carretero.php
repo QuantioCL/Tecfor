@@ -20,7 +20,7 @@
 		<br><br>
 		<p class="title">Plataformas Century para auxilio de veh&iacute;culos</p><br>
 		<section class="infoBox auxTable">
-			<p class="light" style="text-align: left; width: 80%;">Plataformas de auxilio carretero para veh&iacute;culos, marca CHAMPION fabricadas por la prestigiosa empresa <a class="contLink" href="http://www.millerind.com" target="_blank" style="text-decoration: underline">MILLER</a>, que tambi&eacute;n produce gr&uacute;as CENTURY, CHALLENGER, EAGLE y HOLMES en USA, Francia y B&eacute;lgica</p>
+			<p class="light" style="text-align: left; width: 80%;">Plataformas de auxilio carretero para veh&iacute;culos, marca Centyry fabricadas por la prestigiosa empresa <a class="contLink" href="http://www.millerind.com" target="_blank" style="text-decoration: underline">MILLER</a>, que tambi&eacute;n produce gr&uacute;as Champion, Challenger, Eagle y Holmes en USA, Francia y B&eacute;lgica</p>
 			<br><br><br>
 			<table class="light">
 				<tr style="border-bottom: 1px solid black;">
@@ -174,7 +174,7 @@
 				</tr>
 			</table>
 			<br><br>
-			<p class="light">Ver ficha t&eacute;cnica de <a href="../descargas/century_20_30.pdf" target="_blank" class="contLinkU">modelo 20.000 lbs</a>.</p>
+			<a href="../descargas/century_20_30.pdf" target="_blank" class="button">Ver cat&aacute;logo</a>
 			<br><br><br><br>
 			<p class="light">Especificaciones de cami&oacute;n en que se instale esta plataforma</p><br>
 			<table class="light">

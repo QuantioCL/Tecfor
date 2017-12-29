@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="../styles/producto.css">
 		<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
 	</head>
-	
+
 	<body>
 		<?php include_once("../menu.html"); ?>
 		<br><br><br><br>
@@ -36,7 +36,7 @@
 						<td>199</td>
 						<td>0</td>
 						<td>2</td>
-						<td id="opciones602"><a href="../descargas/diagrama602.gif" target="_blank">Diagrama</a><br><a href="../descargas/ficha602.pdf" target="_blank">Ficha t&eacute;cnica</a><br><a href="../descargas/602.pdf" target="_blank">Cat&aacute;logo</a></td>
+						<td id="opciones602"><a href="../descargas/diagrama602.gif" target="_blank">Diagrama</a><br><a href="../descargas/ficha602.pdf" target="_blank">Ficha t&eacute;cnica</a><br><a href="../descargas/SERIE_600T.pdf" target="_blank">Cat&aacute;logo</a></td>
 					</tr>
 					<tr id="N103">
 						<td style="background-color: rgba(249,249,249,0.94);">103</td>
